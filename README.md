@@ -9,3 +9,6 @@
 | *Lindera megaphylla*           | `Lindera_megaphylla.fa`           | [https://ngdc.cncb.ac.cn/gwh/Assembly/26279/show](https://ngdc.cncb.ac.cn/gwh/Assembly/26279/show)                             | CNCB–GWH                      | 2023 |
 | *Magnolia kwangsiensis*        | `Magnolia_kwangsiensis.fa`        | [https://ngdc.cncb.ac.cn/gwh/Assembly/98328/show](https://ngdc.cncb.ac.cn/gwh/Assembly/98328/show)                             | CNCB–GWH                      | 2025 |
 | *Persea americana* (Hass 2019) | `Persea_americana2019.fa`         | [https://genomevolution.org/coge/api/v1/genomes/29302/sequence](https://genomevolution.org/coge/api/v1/genomes/29302/sequence) | CoGe                          | 2019 |
+
+Note: Persea americana, I couldnt find the protein file, just nucleotide so I couldnt include it in the analysis. 
+Downloaded accessions and ran busco 
