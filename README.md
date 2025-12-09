@@ -10,5 +10,4 @@
 | *Magnolia kwangsiensis*        | `Magnolia_kwangsiensis.fa`        | [https://ngdc.cncb.ac.cn/gwh/Assembly/98328/show](https://ngdc.cncb.ac.cn/gwh/Assembly/98328/show)                             | CNCB–GWH                      | 2025 |
 | *Persea americana*  | `Persea_americana.fa`         | [[https://genomevolution.org/coge/api/v1/genomes/29302/sequence](https://genomevolution.org/coge/api/v1/genomes/29302/sequence](https://academic.oup.com/hr/article/11/7/uhae119/7656377#471718547)) | Science Data Bank                          | 2025 |
 
-Note: Persea americana, I couldnt find the protein file, just nucleotide so I couldnt include it in the analysis. 
-Downloaded accessions and ran busco 
+Note: Orthofinder output had to be cleaned, and the interpro script had to be run within a folder with the cleaned orthofinder output, only way it worked 
