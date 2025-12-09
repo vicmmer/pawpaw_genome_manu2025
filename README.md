@@ -11,3 +11,17 @@
 | *Persea americana*  | `Persea_americana.fa`         | [[https://genomevolution.org/coge/api/v1/genomes/29302/sequence](https://genomevolution.org/coge/api/v1/genomes/29302/sequence](https://academic.oup.com/hr/article/11/7/uhae119/7656377#471718547)) | Science Data Bank                          | 2025 |
 
 Note: Orthofinder output had to be cleaned, and the interpro script had to be run within a folder with the cleaned orthofinder output, only way it worked 
+After running interpro.sh and it finished running. in the output of that I need to run the filter_interpro_output.sh which will filter out empty files and files that contains transposonn elements 
+
+current workflow of scripts: 
+
+
+
+0.download_accessions.sh 
+1.busco.sh
+1b.busco_summaries.sh 
+2.orthofinder.sh 
+2b.prepare_interproinput.sh
+3.interproscan.sh
+3b.filter_interpro_output.sh
+4.make_upset_filtered.R  
