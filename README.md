@@ -25,3 +25,10 @@ current workflow of scripts:
 3.interproscan.sh
 3b.filter_interpro_output.sh
 4.make_upset_filtered.R  
+
+
+
+*busco
+Arabidopsis: genome file 
+test data set: arabidopsis swith lineage set to bacteria 
+-take only a few of the orthofinder output (orthogroups) arrange them to be each in their own folder for the 
