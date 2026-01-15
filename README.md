@@ -27,6 +27,9 @@ current workflow of scripts:
 4.make_upset_filtered.R  
 5.config.sh
 6: run treepl with treePL config.cfg
+7a.topgoprep.sh 
+
+#then I have the topgo analysis R script in "C:/Users/vicme/OneDrive/Desktop/Manuscript_Pawpaw" 
 
 
 
