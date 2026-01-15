@@ -25,6 +25,9 @@ current workflow of scripts:
 3.interproscan.sh
 3b.filter_interpro_output.sh
 4.make_upset_filtered.R  
+5.config.sh
+6: run treepl with treePL config.cfg
+
 
 
 
